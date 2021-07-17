@@ -1,0 +1,19 @@
+.buttonContainer{
+    width:35px;
+    height:30px;
+    border :1px solid #afaeb7;
+    display: grid;
+    place-items: center;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+.buttonContainer:hover{
+    background-color: rgba(238,249,253,255);
+}
+
+.buttonImage{
+    width:20px;
+    height:20px;
+    object-fit: cover;
+}

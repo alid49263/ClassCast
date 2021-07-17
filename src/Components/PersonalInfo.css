@@ -1,0 +1,64 @@
+
+.personalInfoContainer{
+    max-width:100%;
+    max-height:80%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-image: linear-gradient(#ffffff,rgba(248,249,253,255));
+    padding: 5px 30px 0px;
+}
+
+.personalInfoHeader{
+    display: flex;
+    align-items: center;
+}
+
+.personalInfoHeaderButtons{
+    width:28%;
+    display: flex;
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+.persoalInfoHealth{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.heading{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Rubik";
+    opacity: 0.9;
+}
+
+.persoalInfoHealthParameters{
+    margin-top: 5px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    border-left: 2px solid #afaeb7;
+    height: 70px;
+    opacity: 0.5;
+}
+
+.personalInfoTrainings{
+    margin-top: 13px;
+}
+
+.signupCard{
+    margin-top: 13px;
+}
+
+.breakImg{
+    height: 20px;
+    width: 20px;
+    transform: rotate(90deg);
+    margin-left: 50%;
+    margin-top: 5px;
+}

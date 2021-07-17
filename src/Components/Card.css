@@ -1,0 +1,138 @@
+.cardContainer{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px ;
+}
+
+.mainCard{
+    height:85px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainCardInfo{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mainCardDetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+.exerciseDet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.duration{
+    font-family: 'Rubik';
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.durationUnit{
+    font-size: 12px;
+    font-family: 'Rubik';
+    color: white;
+    font-weight: 500;
+}
+
+.exersize{
+    font-size: 14px;
+    font-family: 'Rubik';
+    color: white;
+    font-weight: 300;
+}
+
+.menuIcon{
+    height: 15px;
+    cursor: pointer;
+    cursor: pointer;
+}
+
+.mainCardName{
+    font-family: 'Rubik';
+    color: white;
+    margin: 5px 0px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.mainCardClub{
+    font-family: 'Rubik';
+    color: white;
+    margin: 5px 0px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.timeCont{
+    background-color: white;
+    width:50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6px 0px;
+}
+
+.time{
+    font-family: 'Rubik';
+    font-weight: 300;
+}
+
+.signupImage{
+    width: 70px;
+}
+
+.signupCont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.signupButton{
+    border-radius: 5px;
+    padding:3px 7px;
+    background-color: #f8c952;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-family: 'rubik';
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.imageText{
+    font-family: 'rubik';
+    font-size: 12px;
+    font-weight: 300;
+    width:150px;
+    text-align: center;
+}
+
+.cardShadow{
+    width: 95%;
+    margin-top: 1px;
+    height: 10px;
+    align-self: center;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+

@@ -1,0 +1,37 @@
+.trainersContainer{
+    max-width:80%;
+    max-height:20%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.trainersHeader{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.trainersHeaderButtons{
+    width:28%;
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-end;
+}
+
+.trainersContainer>p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Rubik";
+    opacity: 0.9;
+}
+
+.onlineIndicator{
+    position:absolute;
+    background-color: #6ec063;
+    width:10px;
+    height:10px;
+    border-radius: 100px;
+    top:38px;
+    left:38px;
+}

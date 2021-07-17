@@ -1,0 +1,8 @@
+.mainBodyContainer{
+    width:75%;
+    height:100%;
+    display: grid;
+    place-items: center;
+    background-color: #eaf0fe  ;
+    font-family: 'rubik';
+}
